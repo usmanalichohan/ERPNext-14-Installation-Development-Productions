@@ -124,15 +124,16 @@ cd frappe
 bench start
 ```
 ## OPEN NEW SESSION/TERMINAL
-```
+
 #### SITE CREATION
+```
 sudo su - frappe
 cd /home/bench/frappe
 bench new-site site1.local
 bench use site1.local
 bench migrate
 ```
-#### ERPNEXT
+#### ERPNEXT & HRMS
 ```
 bench get-app payments
 ###### make sure bench is runing in other terminal
